@@ -113,7 +113,7 @@ Text
       <strong>Manalo, John Danver Z.</strong>
     </td>
     <td style="border: 1px solid #999; padding: 10px; text-align: center;">
-      <img src="https://via.placeholder.com/120" width="120" alt="Contributor 1">
+      <img src="./contributors_img/manalo.jpg" width="120" alt="Contributor 1">
     </td>
   </tr>
 
@@ -122,7 +122,7 @@ Text
       <strong>Mendoza, Goldwyn Daine Kierzene D.</strong>
     </td>
     <td style="border: 1px solid #999; padding: 10px; text-align: center;">
-      <img src="https://via.placeholder.com/120" width="120" alt="Contributor 2">
+      <img src="./contributors_img/mendoza.jpg" width="120" alt="Contributor 2">
     </td>
   </tr>
 
@@ -131,7 +131,7 @@ Text
       <strong>Villegas, Lemuel L.</strong>
     </td>
     <td style="border: 1px solid #999; padding: 10px; text-align: center;">
-      <img src="https://via.placeholder.com/120" width="120" alt="Contributor 3">
+      <img src="./contributors_img/villegas.jpg" width="120" alt="Contributor 3">
     </td>
   </tr>
 </table>
@@ -165,4 +165,5 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
   - Hat tip to anyone whose code is used
   - Inspiration
   - etc
+
 
