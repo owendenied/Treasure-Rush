@@ -30,7 +30,6 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 #### 3. Navigate the map
 - Travel through the map to find the hidden treasure in the woods.<br/>
 - The level ends once you found the hidden treasure. The game will take you back to the Title Screen.
-<br/>
 
 ## ⚙️ Game Features
 - 2D top-down movement<br/>
@@ -128,6 +127,7 @@ Textttttt
 ## Acknowledgment
 
 Textttt
+
 
 
 
