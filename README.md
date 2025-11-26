@@ -96,36 +96,36 @@ Text
 
 ## 👥 Contributors
 
-<table style="border-collapse: collapse; width: 100%;">
+<table style="border-collapse: collapse; width: 110%;">
   <tr>
-    <th style="border: 1px solid #999; padding: 8px; text-align: left;">Name</th>
-    <th style="border: 1px solid #999; padding: 8px; text-align: center;">&nbsp;</th>
+    <th style="border: 1px solid #999; padding: 12px; text-align: left; width: 50%;">Name</th>
+    <th style="border: 1px solid #999; padding: 12px; text-align: center; width: 50%;">&nbsp;</th>
   </tr>
 
   <tr>
-    <td style="border: 1px solid #999; padding: 10px;">
+    <td style="border: 1px solid #999; padding: 15px; font-size: 16px;">
       <strong>Manalo, John Danver Z.</strong>
     </td>
-    <td style="border: 1px solid #999; padding: 10px; text-align: center;">
-      <img src="./images/manalo.jpg" width="120" alt="Contributor 1">
+    <td style="border: 1px solid #999; padding: 15px; text-align: center;">
+      <img src="./images/manalo.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 1">
     </td>
   </tr>
 
   <tr>
-    <td style="border: 1px solid #999; padding: 10px;">
+    <td style="border: 1px solid #999; padding: 15px; font-size: 16px;">
       <strong>Mendoza, Goldwyn Daine Kierzene D.</strong>
     </td>
-    <td style="border: 1px solid #999; padding: 10px; text-align: center;">
-      <img src="./images/mendoza.jpg" width="120" alt="Contributor 2">
+    <td style="border: 1px solid #999; padding: 15px; text-align: center;">
+      <img src="./images/mendoza.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 2">
     </td>
   </tr>
 
   <tr>
-    <td style="border: 1px solid #999; padding: 10px;">
+    <td style="border: 1px solid #999; padding: 15px; font-size: 16px;">
       <strong>Villegas, Lemuel L.</strong>
     </td>
-    <td style="border: 1px solid #999; padding: 10px; text-align: center;">
-      <img src="./images/villegas.jpg" width="120" alt="Contributor 3">
+    <td style="border: 1px solid #999; padding: 15px; text-align: center;">
+      <img src="./images/villegas.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 3">
     </td>
   </tr>
 </table>
@@ -159,6 +159,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
   - Hat tip to anyone whose code is used
   - Inspiration
   - etc
+
 
 
 
