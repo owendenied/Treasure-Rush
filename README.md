@@ -8,54 +8,39 @@ Villegas, Lemuel L.
 </p>
 
 ## 📝 Project Description
-
 Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collect axes, and clear obstacles to find the treasure hidden somewhere on the map.
 
 ## 🎮 How to Play
 
 ### 🕹️ Controls
-
 <img src="images/Controls.png" width="800" alt="Controls Screenshot">
+<br/>
 
 ### 🎯 Objectives
-
 #### 1. Explore the map filled with:
-
-&nbsp;&nbsp;&nbsp;🌳    Trees
-
-&nbsp;&nbsp;&nbsp;👾    Monsters
-
-&nbsp;&nbsp;&nbsp;🧪    Speed Potions
-
-&nbsp;&nbsp;&nbsp;🗺️    Hidden Treasures
+&nbsp;&nbsp;&nbsp;🌳    Trees<br/>
+&nbsp;&nbsp;&nbsp;👾    Monsters<br/>
+&nbsp;&nbsp;&nbsp;🧪    Speed Potions<br/>
+&nbsp;&nbsp;&nbsp;🗺️    Hidden Treasures<br/>
 
 #### 2. Collect Axes
-
-- Axes are required to cut down obstacles blocking your path.
-
+- Axes are required to cut down obstacles blocking your path.<br/>
 - Each tree cut consumes 1 axe from the inventory.
 
 #### 3. Navigate the map
-- Travel through the map to find the hidden treasure in the woods.
-
+- Travel through the map to find the hidden treasure in the woods.<br/>
 - The level ends once you found the hidden treasure. The game will take you back to the Title Screen.
+<br/>
 
 ## ⚙️ Game Features
-- 2D top-down movement
-
-- WASD controls
-
-- Monster encounters (non-combat)
-
-- Collectible treasure
-
-- Resource management (axes)
-
-- Obstacle-cutting mechanic
-
-- Hidden treasure win condition
-
-- Title screen and game loop
+- 2D top-down movement<br/>
+- WASD controls<br/>
+- Monster encounters (non-combat)<br/>
+- Collectible treasure<br/>
+- Resource management (axes)<br/>
+- Obstacle-cutting mechanic<br/>
+- Hidden treasure win condition<br/>
+- Title screen and game loop<br/>
 
 
 ## Project Structure
@@ -84,8 +69,7 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 
 ### 💊 Encapsulation
 Encapsulation was used in this project in a way that the game data such as player stats, inventory (axes), position, and movement speed are stored in private fields. Access of these are controlled
-through getter and setter methods. 
-
+through getter and setter methods. <br/><br/>
 This protects the game state from unwanted modifications and keeps data handling organized.
 
 ### 🧬 Inheritance
@@ -144,6 +128,7 @@ Textttttt
 ## Acknowledgment
 
 Textttt
+
 
 
 
