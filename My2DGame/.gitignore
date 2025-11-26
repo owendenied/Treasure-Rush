@@ -1,0 +1,10 @@
+# Compiled Java Classes
+*.class
+
+# Package directories created by the IDE/Compiler
+/bin
+/out
+
+# Operating System Files
+.DS_Store
+Thumbs.db
