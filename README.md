@@ -1,7 +1,7 @@
 <h1 align = "center">Treasure Rush</h1>
 <h3 align = "center">A treasure hunting game.</h3>
 <p align = "center">
-<b>CS 2105 </b> <br/>
+<b>CS 2105 - Group 9 </b> <br/>
 Manalo, John Danver Z. <br/>
 Mendoza, Goldwyn Daine Kierzene D. <br/>
 Villegas, Lemuel L.
@@ -41,8 +41,11 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 - Hidden treasure win condition<br/>
 - Title screen and game loop<br/>
 
+## 🛠️ How to Run the Game
 
-## Project Structure
+1. Textttt
+
+## 🗂️ Project Structure
 ```
 📂 src/
 └── 📂 main/
@@ -55,33 +58,34 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
     ├── ☕ UI.java          
     └── ☕ UtilityTool.java
 ```
-- `AssetSetter.java` - Function
-- `CollisionChecker.java` - Function
-- `GamePanel.java` - Function
-- `KeyHandler.java` - Function
-- `Main.java` - Function
-- `Sound.java` - Function
-- `UI.java` - Function
+- `AssetSetter.java` - Places objects and monsters on the map at startup.
+- `CollisionChecker.java` - Prevents the player from moving through objects.
+- `GamePanel.java` - Handles game loop, screen settings, calling functions like `update()`, and controling game states such as Title Screen, Play, Pause, and Game Over/Victory.
+- `KeyHandler.java` - Detects keyboard input (W, A, S, D, P, BACKSPACE, and ESC)
+- `Main.java` - Entry point of the game. It creates the game window and adds the `GamePanel`.
+- `Sound.java` - Handles loading, playing, looping, stopping, and controlling the volume of sound effects.
+- `UI.java` - Draws all user interface elements such as Title Screen, HUD, messages, etc.
 - `UtilityTool.java` - Function
 
-## OOP Principles
+## 💡 OOP Principles
 
 ### 💊 Encapsulation
-Encapsulation was used in this project in a way that the game data such as player stats, inventory (axes), position, and movement speed are stored in private fields. Access of these are controlled
-through getter and setter methods. <br/><br/>
-This protects the game state from unwanted modifications and keeps data handling organized.
+Encapsulation was used in this project in a way that the game data such as player stats, inventory (axes), position, and movement speed are stored in private fields. For instance, `Entity` contains movement variables, speed, direction, sprites, etc.<br/><br/>
+With the help of encapsulation, the class' internal data is protected by keeping variables organized inside the object, instead of exposing them globally.
 
 ### 🧬 Inheritance
 
-Text
+This project used inheritance heavily. For instance, `Player` and all monsters <b>extends</b> `Entity` which allows shared features like speed, worldX, `update()`, and sprite images to come from the parent class, avoiding rewriting the same code repeatedly and providing a cleaner code.
 
 ### 👁️‍🗨️ Abstraction
 
-Text
+Abstraction was used in this project to hide complex logic behind simple method calls. For instance, `GamePanel` only calls `player.update()`, `monster.update()`, and `tileManager.draw()`. It does not need to know how collision detection, animation, or movement calculations work.<br/><br/>
+This makes the project easier to expand and maintain.
 
 ### 🎭 Polymorphism
 
-Text
+Polymorphism was used in this project to let different classes share the same method name but have different behaviors. For instance, `update()` and `draw()` are defined in `Entity`. `Player`, monsters, and object classes override these methods. The game loop calls `.update()` on every entity without needing to know which specific class it belongs to.<br><br/>
+This allows the player, enemies, and items to behave differently while keeping the overall game loop simple and flexible.
 
 ## 👥 Contributors
 
@@ -119,14 +123,10 @@ Text
   </tr>
 </table>
 
-
-### Additional
-
-Textttttt
-
-## Acknowledgment
+## ✍ Acknowledgment
 
 Textttt
+
 
 
 
