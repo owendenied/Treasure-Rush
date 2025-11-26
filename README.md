@@ -7,7 +7,7 @@ Mendoza, Goldwyn Daine Kierzene D. <br/>
 Villegas, Lemuel L.
 </p>
 
-# Project Description
+## 📝 Project Description
 
 Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collect axes, and clear obstacles to find the treasure hidden somewhere on the map.
 
@@ -59,20 +59,26 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 
 
 ## Project Structure
-
-A step by step series of examples that tell you how to get a development
-environment running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
+```
+📂 src/
+└── 📂 main/
+    ├── ☕ AssetSetter.java          
+    ├── ☕ CollisionChecker.java
+    ├── ☕ GamePanel.java
+    ├── ☕ KeyHandler.java          
+    ├── ☕ Main.java
+    ├── ☕ Sound.java
+    ├── ☕ UI.java          
+    └── ☕ UtilityTool.java
+```
+- `AssetSetter.java` - Function
+- `CollisionChecker.java` - Function
+- `GamePanel.java` - Function
+- `KeyHandler.java` - Function
+- `Main.java` - Function
+- `Sound.java` - Function
+- `UI.java` - Function
+- `UtilityTool.java` - Function
 
 ## OOP Principles
 
@@ -131,35 +137,13 @@ Text
 </table>
 
 
-### pp
+### Additional
 
-Checks if the best practices and the right coding style has been used.
+Textttttt
 
-    Give an example
+## Acknowledgment
 
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
-
+Textttt
 
 
 
