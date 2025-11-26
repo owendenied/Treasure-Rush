@@ -15,13 +15,7 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 
 ### 🕹️ Controls
 
-- W – Move Up
-
-- A – Move Left
-
-- S – Move Down
-
-- D – Move Right
+<img src="images/Controls.png" width="400" alt="Controls Screenshot">
 
 ### 🎯 Objectives
 
@@ -104,8 +98,8 @@ Text
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th style="border: 1px solid #999; padding: 8px; text-align: left;">Contributors</th>
-    <th style="border: 1px solid #999; padding: 8px; text-align: center;">Photos</th>
+    <th style="border: 1px solid #999; padding: 8px; text-align: left;">Name</th>
+    <th style="border: 1px solid #999; padding: 8px; text-align: center;">&nbsp;</th>
   </tr>
 
   <tr>
@@ -165,6 +159,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
   - Hat tip to anyone whose code is used
   - Inspiration
   - etc
+
 
 
 
