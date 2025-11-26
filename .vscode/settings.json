@@ -1,6 +1,15 @@
 {
     "java.project.sourcePaths": [
-        "My2DGame/src",
-        "My2DGame/res"
-    ]
+        "src",
+        "res"
+    ], 
+    
+
+    "java.project.resourcePaths": ["res"], 
+
+
+    "java.project.referencedLibraries": [ 
+        "lib/**/*.jar"
+    ],
+    "java.project.outputPath": "bin"
 }
