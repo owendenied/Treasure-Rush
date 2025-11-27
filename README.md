@@ -91,19 +91,19 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ### Title Screen
 
-<img src="/images/titleScreen.png" alt="Title Screen of Treasure Rush" width="100%">
+<img src="/images/titleScreen.jpg" alt="Title Screen of Treasure Rush" width="100%">
 
 ### Searching for Treasure (Gameplay)
 
-<img src="/images/treasureHunting.png" alt="Gameplay of Treasure Rush" width="100%">
+<img src="/images/treasureHunting.jpg" alt="Gameplay of Treasure Rush" width="100%">
 
 ### Victory Screen
 
-<img src="/images/victory.png" alt="Victory Screen" width="100%">
+<img src="/images/victory.jpg" alt="Victory Screen" width="100%">
 
 ### Game Over Screen
 
-<img src="/images/defeat.png" alt="Game Over Screen" width="100%">
+<img src="/images/defeat.jpg" alt="Game Over Screen" width="100%">
 
 ## 👥 Contributors
 
@@ -153,5 +153,6 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 * **Special Thanks to:**
     * Ryisnow (YouTube tutorials) - https://www.youtube.com/@RyiSnow
+
 
 
