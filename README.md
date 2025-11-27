@@ -13,7 +13,7 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 ## 🎮 How to Play
 
 ### 🕹️ Controls
-<img src="images/Controls.png" width="800" alt="Controls Screenshot">
+<img src="images/Controls.png" width="100%" alt="Controls Screenshot">
 <br/>
 
 ### 🎯 Objectives
@@ -153,6 +153,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 * **Special Thanks to:**
     * Ryisnow (YouTube tutorials) - https://www.youtube.com/@RyiSnow
+
 
 
 
