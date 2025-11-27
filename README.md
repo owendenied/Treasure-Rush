@@ -87,6 +87,24 @@ This makes the project easier to expand and maintain.
 Polymorphism was used in this project to let different classes share the same method name but have different behaviors. For instance, `update()` and `draw()` are defined in `Entity`. `Player`, monsters, and object classes override these methods. The game loop calls `.update()` on every entity without needing to know which specific class it belongs to.<br><br/>
 This allows the player, enemies, and items to behave differently while keeping the overall game loop simple and flexible.
 
+## 📸 Screenshots
+
+### Title Screen
+
+<img src="/images/titleScreen.png" alt="Title Screen of Treasure Rush" width="100%">
+
+### Searching for Treasure (Gameplay)
+
+<img src="/images/treasureHunting.png" alt="Gameplay of Treasure Rush" width="100%">
+
+### Victory Screen
+
+<img src="/images/victory.png" alt="Victory Screen" width="100%">
+
+### Game Over Screen
+
+<img src="/images/defeat.png" alt="Game Over Screen" width="100%">
+
 ## 👥 Contributors
 
 <table style="border-collapse: collapse; width: 110%;">
@@ -123,15 +141,17 @@ This allows the player, enemies, and items to behave differently while keeping t
   </tr>
 </table>
 
-## ✍ Acknowledgment
+## 💜 Credits 
 
-Textttt
+* **Asset Pack: Ninja Adventure**
+    * Creator: Pixel-boy
+    * Source: https://pixel-boy.itch.io/
 
+* **Asset Pack: 16x16 Mini World Sprites and Assorted RPG Icons**
+    * Creator: Shade
+    * Source: https://merchant-shade.itch.io
 
-
-
-
-
-
+* **Special Thanks to:**
+    * Ryisnow (YouTube tutorials) - https://www.youtube.com/@RyiSnow
 
 
