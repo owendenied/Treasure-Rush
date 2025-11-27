@@ -43,7 +43,8 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 
 ## 🛠️ How to Run the Game
 
-1. Textttt
+1. Open `src/main/Main.java` then run the program.
+2. Enjoy playing!
 
 ## 🗂️ Project Structure
 ```
@@ -65,7 +66,7 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 - `Main.java` - Entry point of the game. It creates the game window and adds the `GamePanel`.
 - `Sound.java` - Handles loading, playing, looping, stopping, and controlling the volume of sound effects.
 - `UI.java` - Draws all user interface elements such as Title Screen, HUD, messages, etc.
-- `UtilityTool.java` - Function
+- `UtilityTool.java` - Loads the images in `tileManager`
 
 ## 💡 OOP Principles
 
@@ -154,6 +155,8 @@ This allows the player, enemies, and items to behave differently while keeping t
 * **Special Thanks to:**
     * Ryisnow (YouTube tutorials) - https://www.youtube.com/@RyiSnow
 
+## ✍️ Acknowledgment
+Our group would like to extend our outstanding gratitude to our professor, Ma'am Fatima Marie P. Agdon for helping us accomplish this project. Her constant support helped a lot on the completion of this project. 
 
 
 
