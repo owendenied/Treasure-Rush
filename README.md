@@ -107,10 +107,10 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ## 👥 Contributors
 
-<table style="border-collapse: collapse; width: 110%;">
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <tr>
-    <th style="border: 1px solid #999; padding: 12px; text-align: left; width: 50%;">Name</th>
-    <th style="border: 1px solid #999; padding: 12px; text-align: center; width: 50%;">&nbsp;</th>
+    <th style="border: 1px solid #999; padding: 12px; text-align: left;">Name</th>
+    <th style="border: 1px solid #999; padding: 12px; text-align: center;">&nbsp;</th>
   </tr>
 
   <tr>
@@ -153,6 +153,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 * **Special Thanks to:**
     * Ryisnow (YouTube tutorials) - https://www.youtube.com/@RyiSnow
+
 
 
 
