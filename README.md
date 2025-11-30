@@ -156,9 +156,7 @@ This allows the player, enemies, and items to behave differently while keeping t
       <img src="./images/manalo.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 1">
     </td>
     <td style="border: 1px solid #999; padding: 15px; text-align: center;">
-      <a href="https://github.com/Kemeno01" target="_blank" style="text-decoration:none;">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="32" height="32">
-      </a>
+      <a href="https://github.com/Kemeno01" target="_blank">Kemeno01</a>
     </td>
   </tr>
 
@@ -170,9 +168,7 @@ This allows the player, enemies, and items to behave differently while keeping t
       <img src="./images/mendoza.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 2">
     </td>
     <td style="border: 1px solid #999; padding: 15px; text-align: center;">
-      <a href="https://github.com/owendenied" target="_blank" style="text-decoration:none;">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="32" height="32">
-      </a>
+      <a href="https://github.com/owendenied" target="_blank">owendenied</a>
     </td>
   </tr>
 
@@ -184,9 +180,7 @@ This allows the player, enemies, and items to behave differently while keeping t
       <img src="./images/villegas.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 3">
     </td>
     <td style="border: 1px solid #999; padding: 15px; text-align: center;">
-      <a href="https://github.com/Lemuel-75" target="_blank" style="text-decoration:none;">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="32" height="32">
-      </a>
+      <a href="https://github.com/Lemuel-75" target="_blank">Lemuel-75</a>
     </td>
   </tr>
 </table>
@@ -206,6 +200,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ## ✍️ Acknowledgment
 Our group would like to extend our outstanding gratitude to our professor, Ma'am Fatima Marie P. Agdon for helping us accomplish this project. Her constant support helped a lot on the completion of this project. 
+
 
 
 
