@@ -48,7 +48,6 @@ public class UI {
         // Load Object Images for HUD
         Entity axe = new OBJ_Axe(gp); 
         axeImage = axe.image;
-        
     }
 
     // --- MAIN DRAW METHOD ---
