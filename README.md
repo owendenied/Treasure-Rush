@@ -144,8 +144,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #999;">
   <tr>
     <th style="border: 1px solid #999; padding: 12px; text-align: left;">Name</th>
-    <th style="border: 1px solid #999; padding: 12px; text-align: center;">Photo</th>
-    <th style="border: 1px solid #999; padding: 12px; text-align: center;">GitHub</th>
+    <th style="border: 1px solid #999; padding: 12px; text-align: center;">&nbsp;</th>
   </tr>
 
   <tr>
@@ -154,9 +153,6 @@ This allows the player, enemies, and items to behave differently while keeping t
     </td>
     <td style="border: 1px solid #999; padding: 15px; text-align: center;">
       <img src="./images/manalo.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 1">
-    </td>
-    <td style="border: 1px solid #999; padding: 15px; text-align: center;">
-      <a href="https://github.com/Kemeno01" target="_blank">https://github.com/Kemeno01</a>
     </td>
   </tr>
 
@@ -167,9 +163,6 @@ This allows the player, enemies, and items to behave differently while keeping t
     <td style="border: 1px solid #999; padding: 15px; text-align: center;">
       <img src="./images/mendoza.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 2">
     </td>
-    <td style="border: 1px solid #999; padding: 15px; text-align: center;">
-      <a href="https://github.com/owendenied" target="_blank">https://github.com/owendenied</a>
-    </td>
   </tr>
 
   <tr>
@@ -178,9 +171,6 @@ This allows the player, enemies, and items to behave differently while keeping t
     </td>
     <td style="border: 1px solid #999; padding: 15px; text-align: center;">
       <img src="./images/villegas.jpg" width="120" height="120" style="border-radius: 50%;" alt="Contributor 3">
-    </td>
-    <td style="border: 1px solid #999; padding: 15px; text-align: center;">
-      <a href="https://github.com/Lemuel-75" target="_blank">https://github.com/Lemuel-75</a>
     </td>
   </tr>
 </table>
@@ -200,6 +190,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ## ✍️ Acknowledgment
 Our group would like to extend our outstanding gratitude to our professor, Ma'am Fatima Marie P. Agdon for helping us accomplish this project. Her constant support helped a lot on the completion of this project. 
+
 
 
 
