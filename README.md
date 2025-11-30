@@ -59,7 +59,7 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
     ├── ☕ UI.java          
     └── ☕ UtilityTool.java
 ```
-## 🎮 Core Systems (`/main`)
+🎮 Core Systems (`/main`)
 **`Main.java`** – Game entry point; creates the window and starts the `GamePanel`.  
 **`GamePanel.java`** – Runs the game loop and manages all game states.  
 **`KeyHandler.java`** – Reads player keyboard input (movement + control keys).  
@@ -69,28 +69,20 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 **`AssetSetter.java`** – Places items, objects, and monsters in the world.  
 **`UtilityTool.java`** – Helps load and scale images.
 
----
-
-## 🧍 Entity System (`/entity`)
+🧍 Entity System (`/entity`)
 **`Entity.java`** – Base class defining shared attributes and behavior for all game actors.  
 **`Player.java`** – Handles player movement, interactions, and status effects.
 
----
-
-## 👾 Monsters (`/monster`)
+👾 Monsters (`/monster`)
 **`MON_*Slime.java`** – Slime enemy variants with unique stats and simple random AI.
 
----
-
-## 🗃 Objects (`/object`)
+🗃 Objects (`/object`)
 **`OBJ_Axe.java`** – Collectible axe allowing the player to chop trees.  
 **`OBJ_Chest.java`** – Victory object; interacting ends the game.  
 **`OBJ_DeadTree.java`** – Solid obstacle removable with an axe.  
 **`OBJ_SpeedPotion.java`** – Grants a temporary speed boost.
 
----
-
-## 🌍 Tile System (`/tile`)
+🌍 Tile System (`/tile`)
 **`Tile.java`** – Holds a tile’s image and collision flag.  
 **`TileManager.java`** – Loads map data and renders the tile-based world.
 
@@ -183,6 +175,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ## ✍️ Acknowledgment
 Our group would like to extend our outstanding gratitude to our professor, Ma'am Fatima Marie P. Agdon for helping us accomplish this project. Her constant support helped a lot on the completion of this project. 
+
 
 
 
