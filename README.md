@@ -59,14 +59,40 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
     ├── ☕ UI.java          
     └── ☕ UtilityTool.java
 ```
-- `AssetSetter.java` - Places objects and monsters on the map at startup.
-- `CollisionChecker.java` - Prevents the player from moving through objects.
-- `GamePanel.java` - Handles game loop, screen settings, calling functions like `update()`, and controling game states such as Title Screen, Play, Pause, and Game Over/Victory.
-- `KeyHandler.java` - Detects keyboard input (W, A, S, D, P, BACKSPACE, and ESC)
-- `Main.java` - Entry point of the game. It creates the game window and adds the `GamePanel`.
-- `Sound.java` - Handles loading, playing, looping, stopping, and controlling the volume of sound effects.
-- `UI.java` - Draws all user interface elements such as Title Screen, HUD, messages, etc.
-- `UtilityTool.java` - Loads the images in `tileManager`
+## 🎮 Core Systems (`/main`)
+**`Main.java`** – Game entry point; creates the window and starts the `GamePanel`.  
+**`GamePanel.java`** – Runs the game loop and manages all game states.  
+**`KeyHandler.java`** – Reads player keyboard input (movement + control keys).  
+**`CollisionChecker.java`** – Checks and prevents invalid collisions with tiles/objects.  
+**`Sound.java`** – Loads and handles playback of sound effects.  
+**`UI.java`** – Draws UI elements like the title screen, HUD, and messages.  
+**`AssetSetter.java`** – Places items, objects, and monsters in the world.  
+**`UtilityTool.java`** – Helps load and scale images.
+
+---
+
+## 🧍 Entity System (`/entity`)
+**`Entity.java`** – Base class defining shared attributes and behavior for all game actors.  
+**`Player.java`** – Handles player movement, interactions, and status effects.
+
+---
+
+## 👾 Monsters (`/monster`)
+**`MON_*Slime.java`** – Slime enemy variants with unique stats and simple random AI.
+
+---
+
+## 🗃 Objects (`/object`)
+**`OBJ_Axe.java`** – Collectible axe allowing the player to chop trees.  
+**`OBJ_Chest.java`** – Victory object; interacting ends the game.  
+**`OBJ_DeadTree.java`** – Solid obstacle removable with an axe.  
+**`OBJ_SpeedPotion.java`** – Grants a temporary speed boost.
+
+---
+
+## 🌍 Tile System (`/tile`)
+**`Tile.java`** – Holds a tile’s image and collision flag.  
+**`TileManager.java`** – Loads map data and renders the tile-based world.
 
 ## 💡 OOP Principles
 
@@ -157,6 +183,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ## ✍️ Acknowledgment
 Our group would like to extend our outstanding gratitude to our professor, Ma'am Fatima Marie P. Agdon for helping us accomplish this project. Her constant support helped a lot on the completion of this project. 
+
 
 
 
