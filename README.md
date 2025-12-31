@@ -1,4 +1,4 @@
-<h1 align = "center">Treasure Rush</h1>
+<img src="images/gameName.jpg" width="100%" alt="Title">
 <h3 align = "center">A treasure hunting game.</h3>
 <p align = "center">
 <b>CS 2105 - Group 9 </b> <br/>
@@ -43,7 +43,7 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
 
 ## 🛠️ How to Run the Game
 
-1. Open `src/main/Main.java` then run the program.
+1. Download the Treasure Rush v1.0 in Release.
 2. Enjoy playing!
 
 ## 🗂️ Project Structure
@@ -79,27 +79,98 @@ Treasure Rush is a simple 2D Java game where you explore, avoid monsters, collec
     ├── ☕ Tile.java          
     └── ☕ TileManager.java
 ```
-- `Main.java` – Game entry point; creates the window and starts the `GamePanel`.  
-- `GamePanel.java` – Runs the game loop and manages all game states.  
-- `KeyHandler.java` – Reads player keyboard input (movement + control keys).  
-- `CollisionChecker.java` – Checks and prevents invalid collisions with tiles/objects.  
-- `Sound.java` – Loads and handles playback of sound effects.  
-- `UI.java` – Draws UI elements like the title screen, HUD, and messages.  
-- `AssetSetter.java` – Places items, objects, and monsters in the world.  
-- `UtilityTool.java` – Helps load and scale images.
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>File / Class</th>
+    <th>Description</th>
+  </tr>
 
-- `Entity.java` – Base class defining shared attributes and behavior for all game actors.  
-- `Player.java` – Handles player movement, interactions, and status effects.
+  <tr>
+    <td>Main.java</td>
+    <td>Game entry point; creates the window and starts the GamePanel.</td>
+  </tr>
 
-- `MON_*Slime.java` – Slime enemy variants with unique stats and simple random AI.
+  <tr>
+    <td>GamePanel.java</td>
+    <td>Runs the game loop and manages all game states.</td>
+  </tr>
 
-- `OBJ_Axe.java` – Collectible axe allowing the player to chop trees.  
-- `OBJ_Chest.java` – Victory object; interacting ends the game.  
-- `OBJ_DeadTree.java` – Solid obstacle removable with an axe.  
-- `OBJ_SpeedPotion.java` – Grants a temporary speed boost.
+  <tr>
+    <td>KeyHandler.java</td>
+    <td>Reads player keyboard input (movement + control keys).</td>
+  </tr>
 
-- `Tile.java` – Holds a tile’s image and collision flag.  
-- `TileManager.java` – Loads map data and renders the tile-based world.
+  <tr>
+    <td>CollisionChecker.java</td>
+    <td>Checks and prevents invalid collisions with tiles/objects.</td>
+  </tr>
+
+  <tr>
+    <td>Sound.java</td>
+    <td>Loads and handles playback of sound effects.</td>
+  </tr>
+
+  <tr>
+    <td>UI.java</td>
+    <td>Draws UI elements like the title screen, HUD, and messages.</td>
+  </tr>
+
+  <tr>
+    <td>AssetSetter.java</td>
+    <td>Places items, objects, and monsters in the world.</td>
+  </tr>
+
+  <tr>
+    <td>UtilityTool.java</td>
+    <td>Helps load and scale images.</td>
+  </tr>
+
+  <tr>
+    <td>Entity.java</td>
+    <td>Base class defining shared attributes and behavior for all game actors.</td>
+  </tr>
+
+  <tr>
+    <td>Player.java</td>
+    <td>Handles player movement, interactions, and status effects.</td>
+  </tr>
+
+  <tr>
+    <td>MON_*Slime.java</td>
+    <td>Slime enemy variants with unique stats and simple random AI.</td>
+  </tr>
+
+  <tr>
+    <td>OBJ_Axe.java</td>
+    <td>Collectible axe allowing the player to chop trees.</td>
+  </tr>
+
+  <tr>
+    <td>OBJ_Chest.java</td>
+    <td>Victory object; interacting ends the game.</td>
+  </tr>
+
+  <tr>
+    <td>OBJ_DeadTree.java</td>
+    <td>Solid obstacle removable with an axe.</td>
+  </tr>
+
+  <tr>
+    <td>OBJ_SpeedPotion.java</td>
+    <td>Grants a temporary speed boost.</td>
+  </tr>
+
+  <tr>
+    <td>Tile.java</td>
+    <td>Holds a tile’s image and collision flag.</td>
+  </tr>
+
+  <tr>
+    <td>TileManager.java</td>
+    <td>Loads map data and renders the tile-based world.</td>
+  </tr>
+</table>
+
 
 ## 💡 OOP Principles
 
@@ -190,6 +261,7 @@ This allows the player, enemies, and items to behave differently while keeping t
 
 ## ✍️ Acknowledgment
 Our group would like to extend our outstanding gratitude to our professor, Ma'am Fatima Marie P. Agdon for helping us accomplish this project. Her constant support helped a lot on the completion of this project. 
+
 
 
 
